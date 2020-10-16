@@ -18,9 +18,6 @@ class GetRequester
   
   def parse_json
     responses = JSON.parse(self.get_response_body)
-    responses.collect do |respons|
-    program["agency"] 
-  end
   end
   
 end
