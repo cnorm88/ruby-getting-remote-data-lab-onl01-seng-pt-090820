@@ -21,6 +21,7 @@ class GetRequester
     responses.collect do |respons|
     program["agency"] 
   end
+  end
   
 end
   
